@@ -32,7 +32,7 @@ function kelvinToFahrenheit(temperatureInKelvin) {
 function printElements(apiResponse, city) {
   let temperatureInFahrenheit = kelvinToFahrenheit(apiResponse.main.temp); // creates new var to call in text string
   document.querySelector('#showResponse').innerText = `The humidity in ${city} is ${apiResponse.main.humidity}%.
-  The temperature in Kelvins is ${temperatureInFahrenheit} degrees.`;
+  The temperature in Fahrenheit is ${temperatureInFahrenheit} degrees.`;
 }
 
 function printError(request, apiResponse, city) {
