@@ -25,7 +25,7 @@ function getWeather(city) {
 function kelvinToFahrenheit(temperatureInKelvin) {
   let temperatureInFahrenheit = (temperatureInKelvin - 273.15) * 1.8 + 32; //declare new var to round in next line
   return Math.round(temperatureInFahrenheit); //rounds to nearest whole
-}
+} //FFR you can also do this from OpenWeather API withtout a function
 
 // UI Logic
 
